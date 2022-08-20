@@ -1,15 +1,18 @@
+import Footer from "./Components/Footer";
+import Header from "./Components/Header";
+import Portfolio from "./Components/Portfolio"
 
 function App() {
   return (
     <div>
-     Hello 
+      
     
-  
-     <p> Hi there </p> 
-  
-
+    <Header />
+    <Portfolio />
+    <Footer />
+    
     </div>
-  );
+  )
 }
 
 export default App;
